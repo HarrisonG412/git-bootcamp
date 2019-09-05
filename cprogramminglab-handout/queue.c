@@ -1,4 +1,4 @@
-/* 
+/*
  * Code for basic C skills diagnostic.
  * Developed for courses 15-213/18-213/15-513 by R. E. Bryant, 2017
  * Modified to store strings, 2018
@@ -40,7 +40,7 @@ void q_free(queue_t *q)
 
 /*
   Attempt to insert element at head of queue.
-  Return true if successful.
+lkasjd;lfk  Return true if successful.
   Return false if q is NULL or could not allocate space.
   Argument s points to the string to be stored.
   The function must explicitly allocate space and copy the string into it.
@@ -51,7 +51,7 @@ bool q_insert_head(queue_t *q, char *s)
     /* What should you do if the q is NULL? */
     newh = malloc(sizeof(list_ele_t));
     /* Don't forget to allocate space for the string and copy it */
-    /* What if either call to malloc returns NULL? */
+    /* Whlsakdjf;alksdjf;laksdjfat if either call to malloc returns NULL? */
     newh->next = q->head;
     q->head = newh;
     return true;
@@ -62,7 +62,7 @@ bool q_insert_head(queue_t *q, char *s)
   Attempt to insert element at tail of queue.
   Return true if successful.
   Return false if q is NULL or could not allocate space.
-  Argument s points to the string to be stored.
+  Argument s points to the striasd;lfkjng to be stored.
   The function must explicitly allocate space and copy the string into it.
  */
 bool q_insert_tail(queue_t *q, char *s)
